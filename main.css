@@ -1,0 +1,196 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column; 
+    /* background-color: rgb(255, 255, 255); */
+    overflow-x: hidden;
+    background-size: 100%;
+    background-image: url("img/IMG_20180804_052916.jpg");
+    
+    background-blend-mode: soft-light;
+    margin: 0;
+    font-family: lato, sans-serif;
+    color: #222;
+    font-size: 0.9em;
+}
+main{
+    flex: 1 0 auto; 
+   
+}
+.top:hover{
+    opacity: 0.7;
+}
+nav{
+    
+    width: 100%;
+    display: flex;
+    background: gainsboro; 
+    height: 50px;
+    color: rgb(87, 87, 87);
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    opacity: 0.9;
+    padding-left: 15px;
+   
+}
+.icon:hover{
+    margin: 5px;
+}
+#login{
+    
+    margin-left: 540px;
+    color: rgb(87, 87, 87);
+   
+}
+#logout{
+    
+    margin-right: 25px;
+    height: 40px;
+    width: 90px;
+    font-size: 24px;
+}
+
+.end{
+    display: flex;
+    align-items: center;
+    
+}
+@media screen and (min-width: 559px) {
+article{
+    margin: 100px;
+    width: 85%;
+    height: 500px;
+    flex: 1 0 85%;
+    display: flex;
+  }
+}
+.first{
+    width: 30%;
+    background: blue;
+    color: white;
+    
+    opacity: 0.8;
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.second{
+    color: white;
+    font-size: 20px;
+    background: blue;
+    opacity: 0.8;
+    width: 70%;
+    margin: 10px;
+    padding: 40px;
+}   
+
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    padding: 20px;
+}
+@media screen and (min-width: 559px) {
+  section{ 
+    margin: 190px;
+    flex: 1 1 auto;
+    width: 70%;
+    height: 600px;
+    background: blue;
+    border: 4px solid blue;
+    opacity: 0.9;
+    color: whitesmoke;
+    border-radius: 20px;
+  }
+}
+section h3{
+    margin-left: 10px;
+}
+section:hover{
+    
+}
+
+.bio p{
+    margin-left: 5px;
+    text-align: justify;
+    
+}
+.me{
+    flex: 1 1 600px;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    width: 100px;
+    height: 100px;
+    border: 4px solid white;
+    border-radius: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: #222;
+
+}
+.me img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-right: 310px;
+   
+}
+
+.form{
+    flex: 1 1auto;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+.button{
+    height: 70px;
+}
+footer{
+    flex: 0 0 250px;
+    padding: 10px;
+    color: blue;
+    background: gainsboro;
+    background-size: 100%;
+    background: blue;
+    opacity: 0.7;
+}
+.contact:hover{
+    opacity: 1;
+    flex: 1 1 auto;
+}
+@media screen and (min-width: 769px) {
+  .contact{
+    flex: 1 1 250px;
+    border: 1px solid rgb(255, 255, 255);
+    font-optical-sizing: 3px;
+    font-size: 20px;
+    
+    width: 40%;
+    background:whitesmoke;
+    margin-top: 25px;
+    margin-left: 370px;
+    border-radius: 25px;
+    color: black;
+    opacity: 0.9;
+    
+    }
+}
+.contact p {
+    color: ;
+    margin-left: 8px;
+}
+fa-twitter:hover{
+    opacity: 0.6;
+
+}
+/*  */
+
+
+
